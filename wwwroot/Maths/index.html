@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div>GET : Maths endpoint</div>
+        <div>list of possible query strings:</div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=+&x=number&y=number</div>
+            <div>return {"op":"+", "x":number, "y":number, "value" = x + y}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=-&x=number&y=number</div>
+            <div>return {"op":"-", "x":number, "y":number, "value" = x - y}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=*&x=number&y=number</div>
+            <div>return {"op":"*", "x":number, "y":number, "value" = x * y}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=/&x=number&y=number</div>
+            <div>return {"op":"/", "x":number, "y":number, "value" = x / y}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=%&x=number&y=number</div>
+            <div>return {"op":"%", "x":number, "y":number, "value" = x % y}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=!&n=integer</div>
+            <div>return {"op":"!", "n":integer, "value" = n!}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=p&n=integer</div>
+            <div>return {"op":"p", "n":integer, "value" = true if n is a prime number}</div>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <div>?op=np&n=integer</div>
+            <div>return {"op":"np", "n", "value" = nth prime number}</div>
+        </div>
+    </body>
+</html>
